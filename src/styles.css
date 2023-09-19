@@ -1,0 +1,162 @@
+:root {
+  --tipografia: "Montserrat", sans-serif;
+  --colorBoton: #fef2d9;
+  --colorTipografia: #220d01;
+}
+
+body {
+  background-color: var(--colorBase);
+  font-family: var(--tipografia);
+  margin: 0px;
+  background-image: url(./image\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1024px;
+}
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 96px;
+  height: 80px;
+}
+
+.loginsignup {
+  justify-content: space-between;
+  margin-left: 25px;
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 1px;
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: #fff4da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 118px;
+  margin-top: 0;
+  height: 52px;
+  font-size: 18px;
+}
+
+.busqueda {
+  border-color: #d9d9d900;
+  border-radius: 100px;
+  width: 400px;
+  height: 36px;
+  font-size: 16px;
+  text-indent: 20px;
+  background-color: #d9d9d9;
+}
+
+/*links*/
+
+a {
+  padding: 24px;
+  justify-content: space-between;
+  padding-left: auto;
+  text-decoration: none;
+}
+
+a.one:link {
+  text-decoration: none;
+  color: #220d01;
+}
+a.one:visited {
+  text-decoration: none;
+  color: #220d01;
+}
+a.one:hover {
+  text-decoration: none;
+  color: #220d01;
+}
+a.one:active {
+  text-decoration: none;
+  color: #220d01;
+}
+
+a:link {
+  text-decoration: none;
+  color: #220d01;
+}
+a:visited {
+  text-decoration: none;
+  color: #220d01;
+}
+a:hover {
+  text-decoration: none;
+  color: #220d01;
+}
+a:active {
+  text-decoration: none;
+  color: b#220d01;
+}
+
+.Form {
+  display: flex;
+  width: 374px;
+  height: 516px;
+  padding: 11px 22px 46px 22px;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  gap: 36px;
+  background-color: rgba(111, 29, 27, 0.8);
+  backdrop-filter: blur(9px);
+  border-radius: 8px;
+}
+
+.opciona{
+  display: flex;
+  width: 374px;
+  height: 86px;
+  padding: 11px 22px 6px 22px;
+  flex-direction: column;
+  align-content: space-between;
+  background-color: rgba(111, 29, 27, 0.8);
+  backdrop-filter: blur(9px);
+  border-radius: 8px;
+  text-align: start;
+}
+
+.loginform {
+  width: 275px;
+  height: 36px;
+  background-color: rgb(255, 244, 218, 0.6);
+  border-color: #1f242100;
+  border-radius: 6px;
+  color: #220d01;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: #220d01;
+}
+
+
+.botongoogle{
+  background-color: #e5e6e5;
+  justify-content: space-between;
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 1px;
+  font-size: 15px;
+  text-indent: 20px;
+}
+
+.login{
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  gap: 10px;
+}
